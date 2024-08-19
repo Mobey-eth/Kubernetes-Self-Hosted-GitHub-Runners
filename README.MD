@@ -30,7 +30,7 @@ newgrp docker
 
 ### Minikube Installation
 
-Install Minikube on your local machine:
+Install Minikube:
 
 ```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
