@@ -1,0 +1,11 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: mobi-runner
+spec:
+  replicas: 1
+  template:
+    spec:
+      repository: moby-org/hng_boilerplate_golang_web
+      labels:
+        - Mobi
